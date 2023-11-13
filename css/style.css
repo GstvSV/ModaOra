@@ -86,11 +86,11 @@ body{
 
 .section2-texto h1{
     font-family: 'Viaoda Libre', serif;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .section2-texto p{
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 1.5em;
 }
@@ -142,14 +142,14 @@ body{
 }
 
 .section3-artigo2_titulos h4{
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Viaoda Libre', serif;
     font-weight: 300;
 }
 
 .section3-artigo2_texto{
     width: 60%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.4em;
 }
 
