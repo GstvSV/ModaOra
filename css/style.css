@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 98.7vw;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/topo.jpg');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.main-header{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+
+}
+
+.main-header_title{
+    color: white;
+    font-family: 'Viaoda Libre', serif;
+    font-size: 3.5em;
+    margin-left: 15%;
+}
+
+.main-header_menu{
+    list-style-type: none;
+    width: 50%;
+    height: 100%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-header_menu li{
+    height: 100%; 
+}
+
+.main-header_menu a{
+    color: #425564;
+    height: 100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-header_menu a:hover{
+    color: white;
+}
+
+.section2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-texto{
+    color: #555;
+    height: 50%;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2-texto h1{
+    font-family: 'Viaoda Libre', serif;
+    font-size: 2.5em;
+}
+
+.section2-texto p{
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.section2-imagens{
+    height: 50%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section2-imagens_imagem{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2-imagens_imagem h3{
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.section3{
+    background-color: #003D52;
+    color: white;
+    background-image: url('../images/bg_detalhe.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3-artigo2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.section3-artigo2_titulos h4{
+    font-size: 4em;
+    font-family: 'Viaoda Libre', serif;
+    font-weight: 300;
+}
+
+.section3-artigo2_texto{
+    width: 60%;
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+.rodape{
+    background-color: #0b171f;
+    color: #6f8597;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
